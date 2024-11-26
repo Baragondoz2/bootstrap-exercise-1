@@ -1,0 +1,35 @@
+.custom-navbar {
+    background-color: #009688; /* Remplacez avec la couleur de votre choix */
+}
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+    color: white; /* Couleur du texte */
+}
+.custom-navbar .nav-link:hover {
+    color: #e0f7fa; /* Couleur au survol */
+}
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.hero .container {
+    padding: 100px 15px;
+}
+
+@media (max-width: 768px) {
+    .hero .container {
+        padding: 50px 15px;
+        text-align: center;
+    }
+
+    .custom-navbar {
+        padding: 10px 15px;
+    }
+
+    .card img {
+        height: 200px; /* Réduire les images */
+        object-fit: cover;
+    }
+}
